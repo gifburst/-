@@ -109,17 +109,17 @@ void drawHome()
   tft.setTextSize(2);
   tft.setFont();
   tft.setTextColor(WHITE);
-  tft.print("Select an example!");
+  tft.print("ChipLet Menu Select");
   tft.setCursor(70, 50);
   tft.setTextSize(2);
   tft.setTextColor(LIME);
-  tft.print("NotesPoint.com");
+  tft.print("Select a app!!");
   tft.setTextColor(BLACK);
   tft.setCursor(65, 195);
   tft.print("   FlappyBird");
 
   tft.setCursor(105, 145);
-  tft.print("RGB-Mixer");
+  tft.print("ChipPaint");
 
   tft.setCursor(80, 95);
   tft.print("Oscilloscope");
@@ -151,7 +151,7 @@ void setup()
   tft.print("By:");
 
   tft.setCursor(30, 100);
-  tft.print("NotesPoint.com");
+  tft.print("Squirrel Computers");
 
   for (int i; i < 250; i++)
   {
@@ -214,7 +214,7 @@ void loop()
         tft.drawRoundRect(60, 130, 200, 40, 8, WHITE);   //rgb led
         tft.setCursor(105, 145);
 
-        tft.print("RGB-Mixer");
+        tft.print("ChipPaint");
         delay(70);
 
         currentpage = 2;
